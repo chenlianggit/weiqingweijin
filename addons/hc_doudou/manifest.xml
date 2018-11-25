@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="https://ue.c1993.com" versionCode="">
+	<application setting='false'>
+		<name><![CDATA[开心赢口红]]></name>
+		<identifie><![CDATA[hc_doudou]]></identifie>
+		<version><![CDATA[1.2.0]]></version>
+		<ability><![CDATA[开心赢口红]]></ability>
+		<type><![CDATA[activity]]></type>
+		<description><![CDATA[开心赢口红]]></description>
+		<author><![CDATA[陈亮]]></author>
+		<author><![CDATA[正版授权]]></author>
+		<url><![CDATA[https://ue.c1993.com/]]></url>
+	</application>
+
+	
+	<platform>
+		<rule embed="false" />
+		<rule embed="false" />
+	<supports>
+			<item type="wxapp" />
+	</supports>
+
+	</platform>	
+	<bindings>
+		<menu>
+			<entry title="基础设置" do="setting" state="1" direct="" />
+			<entry title="用户管理" do="users" state="2" direct="" />
+			<entry title="商品管理" do="goods" state="3" direct="" />
+			<entry title="参与记录" do="count" state="4" direct="" />
+			<entry title="发货管理" do="order" state="5" direct="" />
+			<entry title="充值记录" do="recharge" state="6" direct="" />
+			<entry title="审核设置" do="checkgoods" state="7" direct="" />
+			<entry title="升级记录" do="upgrade" state="8" direct="" />
+			<entry title="提现管理" do="cash" state="9" direct="" />
+		</menu>
+	</bindings>
+
+	<install><![CDATA[install.php]]></install>
+	<uninstall><![CDATA[uninstall.php]]></uninstall>
+	<upgrade><![CDATA[upgrade.php]]></upgrade>
+</manifest>
